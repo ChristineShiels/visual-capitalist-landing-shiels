@@ -1,12 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,400&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/cd22de1ab3.js" crossorigin="anonymous"></script>
+    <title>Visual Capitalist</title>
 </head>
+
 <body>
-    <ul><li>hello</li></ul>
+    <header class="header">
+        <a href="#" class="logo"><img src="./assets/vertical-logo-dark-background.png"
+                alt="Visual Capitalist logo image of sylized binoculars" class="topLogo"></a>
+        <nav class="sideNav">
+            <ul class="navList">
+                <li class="navItem"><a href="#featured">Featured</a></li>
+                <li class="navItem"><a href="#popular">Popular</a></li>
+                <li class="navItem"><a href="#topics">Topics</a></li>
+                <li class="navItem"><a href="#about">About</a></li>
+                <li class="navItem"><a href="#masthead">Masthead</a></li>
+                <li class="navItem"><a href="#shop">Shop</a></li>
+                <li class="navItem"><a href="#press">Press/FAQ</a></li>
+                <li class="navItem"><a href="https://www.visualcapitalist.com/advertise/">Advertise</a></li>
+                <li class="navItem"><a href="https://licensing.visualcapitalist.com/">Licensing</a></li>
+                <li class="navItem"><a href="https://www.visualcapitalist.com/contact-us/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="rightSide">
+        <form class="subscribe">
+            <label for="subscribe" class="srOnly">Enter your email to subscribe to our weekly newsletter</label>
+            <h2>Subscribe to our weekly newsletter:</h2>
+            <input type="email" name="subscribe" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+        <h3>Advertisement</h3>
+        <div class="advertisement"><a href="http://www.lazrgrrl.com"><img src="./assets/Screenshot.png"
+                    alt="Logo featuring a line drawing of a person with pink hair and glasses"></a>
+        </div>
+        <div class="socials">
+            <nav class="socialsNav">
+                <ul class="socialsList">
+                    <li>
+                        <a href="https://www.facebook.com/visualcapitalist" aria-label="Visit us on Facebook">
+                            <i aria-hidden="true" class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/visualcap" aria-label="Visit us on Twitter">
+                            <i aria-hidden="true" class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/visual-capitalist/" aria-label="Visit us on LinkedIn">
+                            <i aria-hidden="true" class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/visualcapitalist" aria-label="Visit us on YouTube">
+                            <i aria-hidden="true" class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/visualcap/" aria-label="Visit us on instagram">
+                            <i aria-hidden="true" class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://feeds.feedburner.com/visualcapitalist" aria-label="Visit our rss feed">
+                            <i aria-hidden="true" class="fas fa-rss"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <section id="featured" class="featured visContainer">
+        <div class="left">
+            <h4>Latest</h4>
+            <a href="https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/">
+                <img src="./assets/Top_50_Websites_Shareable_v3-400x240.jpg"
+                    alt="Visualization of the worlds top 50 websites">
+            </a>
+            <div class="newCopy copyContainer">
+                <h3>TECHNOLOGY</h3>
+                <a href="https://www.visualcapitalist.com/the-50-most-visited-websites-in-the-world/">
+                    <h5>The 50 most visited websites in the world</h5>
+                </a>
+                <p class="copy">
+                    Just three websites get 182 billion visits monthly, outpacing the rest of the internet. In this new
+                    visualization, we look at the most visited websites around the world, drawing data from SimilarWeb
+                    (as of November 2020).
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <h4>Featured Companies</h4>
+            <a href="https://www.visualcapitalist.com/company-spotlight/prospector-portal/">
+                <img src="./assets/Screenshot1.png" alt="Prospector logo featuring topographic maps.">
+            </a>
+            <a href="https://www.visualcapitalist.com/company-spotlight/etoro/">
+                <img src="./assets/Screenshot2.png" alt="eToro logo, text stylized with bullhorns">
+            </a>
+            <a href="https://www.visualcapitalist.com/tracking-covid-19-vaccines-around-the-world/" class="viewMore">View More &rarr;</a>
+        </div>
+    </section>
+    <section id="popular" class="popular visContainer">
+        <div class="left">
+            <h4>Popular</h4>
+            <a href="https://www.visualcapitalist.com/tracking-covid-19-vaccines-around-the-world/">
+                <img src="./assets/Screenshot3.png"
+                    alt="Visualization of healthcare tracking COVID-19 vaccines around the world">
+            </a>
+            <div class="copyContainer">
+                <h3>Healthcare</h3>
+                <a href="https://www.visualcapitalist.com/tracking-covid-19-vaccines-around-the-world/">
+                    <h5>Healthcare tracking COVID-19 vaccines around the world</h5>
+                </a>
+                <p class="copy">
+                    These visualizations highlight the number of vaccine doses that
+                    different countries have purchased, as well as the companies and organizations that have pre-sold
+                    them.
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <a href="https://www.visualcapitalist.com/" class="viewMore">
+                <h4>View More &rarr;</h4>
+            </a>
+            <a href="https://www.visualcapitalist.com/year-review-2020-in-20-visualizations/">
+                <img src="./assets/Screenshot4.png" alt="Visualization of the year in review">
+            </a>
+            <div class="copyContainer">
+                <h3>Markets</h3>
+                <a href="https://www.visualcapitalist.com/year-review-2020-in-20-visualizations/">
+                    <h5>The year in review: <br> 2020 in 20 visualizations</h5>
+                </a>
+                <p class="copy">
+                    Can you remember a year more life-changing than 2020? Over a million lives were lost in the
+                    pandemic, oil prices turned negative, and protests swept the streets.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="topics" class="topics visContainer">
+        <h4>Topics</h4>
+        <div class="left">
+            <ul class="topicsList">
+                <li class="topicsItem">
+                    <a href=""><i class="fas fa-chart-line"></i> Markets &rarr;</a>
+                </li>
+                <li class="topicsItem">
+                    <a href=""><i class="fas fa-memory"></i> Technology &rarr;</a>
+                </li>
+                <li class="topicsItem">
+                    <a href=""><i class="fas fa-money-bill-wave"></i> Money &rarr;</a>
+                </li>
+                <li class="topicsItem">
+                    <a href=""> <i class="fas fa-laptop-medical"></i> Healthcare &rarr;</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul class="topicsList">
+                <li class="topicsItem">
+                    <a href=""><i class="fas fa-power-off"></i></i> Energy &rarr;</a>
+                </li>
+                <li class="topicsItem">
+                    <a href=""><i class="fas fa-hard-hat"></i> Mining &rarr;</a>
+                </li>
+                <li class="topicsItem">
+                    <a href=""><i class="fas fa-solar-panel"></i> Green &rarr;</a>
+                </li>
+                <li class="topicsItem">
+                    <a href=""><i class="far fa-handshake"></i> Politics &rarr;</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="about" class="about visContainer">
+        <div class="left">
+            <h4>About</h4>
+            <a href="https://www.visualcapitalist.com/about/">
+                <img src="./assets/Untitled-4.png"
+                    alt="Venn diagram showing that Visual CApitalist is at the intersection of powerful, data-driven visuals and story-telling">
+            </a>
+            <div class="copyContainer">
+                <a href="https://www.visualcapitalist.com/about/">
+                    <h5>Making the world’s information more accessible.</h5>
+                </a>
+                <p class="copy">
+                    Visual Capitalist uses powerful visual content to help investors and business professionals understand the world. Focusing on topics such as markets, technology, energy, and the global economy, Visual Capitalist is currently one of the fastest growing online publishers in North America.<br>The company’s approach of fusing data, art, and storytelling has helped build an affluent millennial audience (>50%) with a reach that is expanding rapidly. Visual Capitalist’s work can also often be found in Business Insider, Marketwatch, Zero Hedge, and other business-oriented publications
+                </p>
+            </div>
+        </div>
+        <div class="right">
+                <h4>Leadership</h4>
+            <a href="https://www.visualcapitalist.com/about/">
+                <img src="./assets/jeff-3.png" alt="Photo of Jeff Desjardins stylized as a radar chart">
+            </a>
+            <div class="copyContainer">
+                <a href="https://www.visualcapitalist.com/about/">
+                    <h5>Jeff Desjardins, Founder and Editor-in-Chief</h5>
+                </a>
+                <p class="copy">
+                    Jeff believes the fusion of information and design can deliver new insights to investors on markets and the economy. Jeff holds a BCom degree from the Sauder School of Business at the University of British Columbia.<br>He is a regular contributor to the World Economic Forum and Business Insider and his work has also been featured on Forbes, CNBC, MarketWatch, Huffington Post, Fast Company, BNN and TechCrunch.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="masthead" class="masthead visContainer">
+        <div class="left">
+            <h4>Masthead</h4>
+            <a href="https://www.visualcapitalist.com/author/nick/">
+                <img src="./assets/nick-3-300x300.png"
+                    alt="Photo of Nick Routley stylized as a radar chart">
+            </a>
+            <div class="copyContainer">
+                <h3>Managing Editor</h3>
+                <a href="https://www.visualcapitalist.com/author/nick/">
+                    <h5>Nick Routley</h5>
+                </a>
+                <p class="copy">
+                    “In a world deluged by irrelevant information, clarity is power.”<br>–Yuval Noah Harari
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <a href="https://www.visualcapitalist.com/masthead/" class="viewMore">
+                <h4>View More &rarr;</h4>
+            </a>
+            <a href="https://www.visualcapitalist.com/author/iman/">
+                <img src="./assets/iman-3-300x300.png" alt="Photo of Iman Ghosh stylized as a radar chart">
+            </a>
+            <div class="copyContainer">
+                <h3>Writer, General interest</h3>
+                <a href="https://www.visualcapitalist.com/author/iman/">
+                    <h5>Iman Ghosh</h5>
+                </a>
+                <p class="copy">
+                    “Life shrinks or expands in proportion to one’s courage.”<br>–Anaïs Nin
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="shop" class="shop visContainer">
+        <div class="left">
+            <h4>Shop</h4>
+            <a href="https://store.visualcapitalist.com/product/signals-hardcover-book/">
+                <img src="./assets/Signals-Book-1200x900.jpg"
+                    alt="hardcover book">
+            </a>
+            <div class="copyContainer">
+                <h3>Books</h3>
+                <a href="https://store.visualcapitalist.com/product/signals-hardcover-book/">
+                    <h5>“SIGNALS” Hardcover Book</h5>
+                </a>
+                <p class="copy">
+                    The world is being bombarded with more and more information.<br>But today’s key decision makers and investors don’t want more information, they want more understanding.
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <a href="https://store.visualcapitalist.com/" class="viewMore">
+                <h4>View More &rarr;</h4>
+            </a>
+            <a href="https://store.visualcapitalist.com/product/6000-year-history-of-medical-cannabis/">
+                <img src="./assets/VC-Store-Mockup-2.png" alt="Chart of the history of medical cannabis">
+            </a>
+            <div class="copyContainer">
+                <h3>Posters & art</h3>
+                <a href="https://store.visualcapitalist.com/product/6000-year-history-of-medical-cannabis/">
+                    <h5>History of Medical Cannabis Poster </h5>
+                </a>
+                <p class="copy">
+                    Medical cannabis has been used for its therapeutic properties for thousands of years, by many different cultures around the world.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="press" class="press visContainer">
+        <div class="left">
+            <h4>Press</h4>
+            <a href="https://www.visualcapitalist.com/press-center/">
+                <img src="./assets/Screenshot5.png"
+                    alt="hardcover book">
+            </a>
+            <div class="copyContainer">
+                <a href="https://www.visualcapitalist.com/press-center/">
+                    <h5>Press Center</h5>
+                </a>
+                <p class="copy">
+                    Rich visual content for the modern investor.
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <h4>FAQ</h4>
+            <a href="https://www.visualcapitalist.com/frequently-asked-questions/">
+                <img src="./assets/Screenshot6.png" alt="Chart of the history of medical cannabis">
+            </a>
+            <div class="copyContainer">
+                <a href="https://www.visualcapitalist.com/frequently-asked-questions/">
+                    <h5>Frequently Asked Questions </h5>
+                </a>
+                <p class="copy">
+                    Visual Capitalist believes that the media landscape is undergoing a massive change. For this reason, we’re a media brand that does things differently.
+
+                </p>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

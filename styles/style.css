@@ -254,3 +254,296 @@ ul, li {
 figure {
   margin: 0;
 }
+
+body {
+  background-image: url(../assets/vector-AUG-2020-55.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  color: whitesmoke;
+  font-family: 'Noto Serif', serif;
+}
+
+h2 {
+  font-family: 'Fira Sans', sans-serif;
+  color: #89B14D;
+  text-align: center;
+  font-size: 2rem;
+}
+
+h3, h4 {
+  text-transform: uppercase;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h4 {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+h5 {
+  font-size: 1.8rem;
+  margin: 0;
+  text-transform: capitalize;
+  line-height: 2;
+  color: #89B14D;
+}
+
+h5:hover, h5:focus {
+  color: whitesmoke;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+a {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+a:hover, a:focus {
+  color: #89B14D;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-underline-offset: 8px;
+}
+
+.viewMore, .topicsList li a {
+  color: #89B14D;
+}
+
+.viewMore:hover, .viewMore:focus, .topicsList li a:hover, .topicsList li a:focus {
+  color: whitesmoke;
+}
+
+header {
+  width: 15vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+header .topLogo {
+  width: 214px;
+  position: relative;
+  padding-top: 22px;
+  padding-left: 43px;
+  top: 0;
+  left: 0;
+}
+
+header .navList {
+  width: 15vh;
+  background-color: rgba(37, 37, 37, 0.5);
+  margin-left: 5px;
+  height: calc(100vh - 90px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 0 10px 20px 20px rgba(37, 37, 37, 0.5);
+          box-shadow: 0 10px 20px 20px rgba(37, 37, 37, 0.5);
+}
+
+.rightSide {
+  width: 15vw;
+  position: fixed;
+  right: 0;
+  margin: 15px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rightSide form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rightSide form input {
+  border: none;
+  width: 15vw;
+  background-color: black;
+  border: 2px solid #89B14D;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  font-family: 'Noto Serif', serif;
+  color: whitesmoke;
+  padding: 4%;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.rightSide form input:hover, .rightSide form input:focus {
+  background-color: #252525;
+}
+
+.rightSide form button {
+  margin: 15px;
+  border: none;
+  background-color: #252525;
+  color: whitesmoke;
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid #252525;
+  border-radius: 10px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.rightSide form button:hover, .rightSide form button:focus {
+  border-color: #89B14D;
+  background-color: black;
+}
+
+.rightSide form button:active {
+  color: #89B14D;
+}
+
+.rightSide .advertisement img {
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+}
+
+.rightSide .socialsList {
+  height: calc(100vh - 440px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.rightSide .socialsList a {
+  font-size: 4rem;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+section {
+  width: calc(70vw - 60px);
+  border-radius: 10px;
+  background: linear-gradient(145deg, #282828, #212121);
+  opacity: 0.9;
+  -webkit-box-shadow: 16px 16px 32px #000000, -16px -16px 32px #000000;
+          box-shadow: 16px 16px 32px #000000, -16px -16px 32px #000000;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px 30px;
+  margin-right: 25px;
+  -webkit-animation: backInUp;
+          animation: backInUp;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+section:first-of-type {
+  margin-top: 100px;
+}
+
+section .left, section .right {
+  width: calc(50% - 30px);
+}
+
+section .left a h4, section .right a h4 {
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+}
+
+section .new img, section .new .copyContainer {
+  width: 80%;
+}
+
+section .feature img {
+  margin-bottom: 20px;
+}
+
+section .topicsList li {
+  padding: 15px;
+}
+
+section .topicsList li:hover i {
+  color: #89B14D;
+  -webkit-animation: rubberBand;
+          animation: rubberBand;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+section .topicsList li a {
+  font-size: 2.2rem;
+}
+
+section .topicsList li a i {
+  font-size: 4rem;
+  -webkit-transform: translateY(7.5px);
+          transform: translateY(7.5px);
+  padding: 0 5px;
+  color: whitesmoke;
+}

@@ -1,0 +1,28 @@
+header {
+    
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;;
+    .topLogo {
+        width: 214px;
+        position: relative;
+        padding-top: 22px;
+        padding-left: 43px;
+        top: 0;
+        left: 0;
+    }
+    .navList{
+        width: 15vh;
+        background-color: rgba($black, 0.5);
+        margin-left: 5px;
+        height: calc(100vh - 90px);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        box-shadow: 0 10px 20px 20px rgba($black, 0.5);
+    }
+}
