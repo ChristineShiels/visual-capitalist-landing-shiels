@@ -255,6 +255,10 @@ figure {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(../assets/vector-AUG-2020-55.jpg);
   background-size: 100vw 100vh;
